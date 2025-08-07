@@ -3,7 +3,7 @@ My final project for Sections AI Programmers Mini MBA
 
 ## Introduction
 This project aims to extract relevant medical data from a typical doctors letter, which has structured parts as well as free text. The goal is, to analyze medical documents and save relevant information into a big database for later scientific purposes. Using OpenAI's GPT-4 model, the system can parse any medical PDF-document, and convert it into a standardized structure that includes laboratory values (with amounts, units and reference values), medications if stated in the doctor letter and mentioned medical indications (like cancer and others). This makes it easy to store, search, and manage medical information in a database system.
-We use a server part, which is designed as an API, and a front end part, which passes the PDF-file to the API and receives a JSON file as output. This JSON file is parsed and saved locally.
+We use a server, which is an API, and a client, which calls the API, passes over the PDF-file and receives a JSON file as output. This JSON file is parsed and saved locally.
 
 ## Prerequisites
 - Python 3.11 or higher
