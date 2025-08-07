@@ -10,11 +10,12 @@ from pdf2image import convert_from_bytes
 import pytesseract
 import uvicorn
 
+# === SET PATH FOR TESSERACT EXE
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 
 # === CONFIG ===
-client = OpenAI(api_key="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")  # must be set
+client = OpenAI(api_key="your-key-here")  # must be set
 
 # === Schema definitions ===
 class Medication(BaseModel):
@@ -47,6 +48,7 @@ app = FastAPI(title="Clinical Document IE Prototype")
 
 def ocr_pdf_bytes(pdf_bytes: bytes) -> str:
     """Convert PDF to text via image-based OCR."""
+    """ SET poppler_path manually  if path not found """
     try:
         images = convert_from_bytes(
             pdf_bytes,
