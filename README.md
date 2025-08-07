@@ -11,7 +11,7 @@ We use a server, which is an API, and a client, which calls the API, passes over
 
 ## Installation
 
-### Backend Setup
+### SERVER Setup
 1. Navigate to the backend directory:
 ```bash
 cd <directory where to find SectionFinalProject>
@@ -32,8 +32,9 @@ pip install -r requirements.txt
 ```bash
 export OPENAI_API_KEY='your-api-key-here'  # On Windows, use: set OPENAI_API_KEY=your-api-key-here
 ```
+Check if poppler and tesserac is installed and included in the PATH-settings. If not, I added code to refer to these librarys/APIs manually.
 
-### Frontend Setup
+### CLIENT Setup
 1. Set API_URL
 ```bash
 API_URL = "your-local-api-address" 	#like "http://127.0.0.1:8000"
