@@ -14,7 +14,7 @@ We use a server part, which is designed as an API, and a front end part, which p
 ### Backend Setup
 1. Navigate to the backend directory:
 ```bash
-cd backend
+cd <directory where to find SectionFinalProject>
 ```
 
 2. Create a virtual environment and activate it:
