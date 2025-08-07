@@ -1,0 +1,83 @@
+{
+  "medications": [
+    {
+      "name": "Penicillin",
+      "dose": null,
+      "frequency": null,
+      "route": null
+    }
+  ],
+  "lab_values": [
+    {
+      "test_name": "LDH",
+      "value": "252",
+      "unit": "UI",
+      "reference_range": "135-225",
+      "date": "09.07.2015"
+    },
+    {
+      "test_name": "Glucose",
+      "value": "44",
+      "unit": "mg/dl",
+      "reference_range": "60-100",
+      "date": "09.07.2015"
+    },
+    {
+      "test_name": "Vitamin D",
+      "value": "18.73",
+      "unit": "ng/ml",
+      "reference_range": "20 - 70",
+      "date": "09.07.2015"
+    },
+    {
+      "test_name": "Folsaure",
+      "value": "3.74",
+      "unit": "ng/ml",
+      "reference_range": "4.6 - 18.7",
+      "date": "09.07.2015"
+    },
+    {
+      "test_name": "Ferritin",
+      "value": "444.80",
+      "unit": "ng/ml",
+      "reference_range": "13.00 - 400.0",
+      "date": "09.07.2015"
+    },
+    {
+      "test_name": "CRP",
+      "value": "6.3",
+      "unit": "mg/l",
+      "reference_range": "<5.0",
+      "date": "09.07.2015"
+    },
+    {
+      "test_name": "Toxoplasmose-lgG",
+      "value": "64.73",
+      "unit": "IU/ml",
+      "reference_range": "<1.0=neg. / >3.0 pos.",
+      "date": "09.07.2015"
+    },
+    {
+      "test_name": "CMV-IgG",
+      "value": "258.80",
+      "unit": "U/ml",
+      "reference_range": "<0.5=neg. / >1.0 pos.",
+      "date": "09.07.2015"
+    },
+    {
+      "test_name": "Hepatitis Bs-AK",
+      "value": "28.18",
+      "unit": "IU/I",
+      "reference_range": "<10.00",
+      "date": "09.07.2015"
+    }
+  ],
+  "anamnesis": {
+    "smoking_status": null,
+    "allergies": "Paprika; Kaffee; Heuschnupfen; Muckenstich; Ramlid 9000; Anixychin",
+    "past_conditions": [
+      "großzelliges B-NHL der Kopfhaut",
+      "follikulares NHL"
+    ]
+  }
+}
